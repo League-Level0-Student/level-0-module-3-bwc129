@@ -3,6 +3,8 @@ package _01_else_if._2_crazy_cat_lady;
 
 import java.net.URI;
 
+import javax.swing.JOptionPane;
+
 public class CrazyCatLady {
 	public static void main(String[] args) {
 		
@@ -12,12 +14,15 @@ public class CrazyCatLady {
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 		//    Hint: You can use the && operator 
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
-		
-		
-		
-		
-		
-		
+		String hi =JOptionPane.showInputDialog("How many dogs do you have");
+		if (hi.equals(0)) {
+			String hhi =JOptionPane.showInputDialog("U R WEIRD");}
+		if (hi.equals(1-3)) {
+			String hHhi =JOptionPane.showInputDialog("U R a doggy lover");}
+		if (hi.equals(4-5)) {
+			String hHHhi =JOptionPane.showInputDialog("U R a crazy dog lover");}
+		if (hi.equals(6-100)) {
+			String hHHHhi =JOptionPane.showInputDialog("U R CRAZY");}
 	}
 
 	static void playVideo(String videoURL) {
